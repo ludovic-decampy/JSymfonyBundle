@@ -1,0 +1,3 @@
+dcyjs_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DCYJSBundle:Default:index }

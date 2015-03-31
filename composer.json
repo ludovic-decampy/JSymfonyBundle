@@ -1,0 +1,30 @@
+{
+  "name" : "DCY/JSBundle",
+  "description" : "A Symfony Javascript Helper Bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Ludovic Decampy",
+    "email" : "ludovic.decampy@gmail.com"
+  }],
+  "keywords" : [
+    "Symfony JS Bundle Collection"
+  ],
+  "license" : [
+    "Apache"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "DCY\\JSBundle" : ""
+    }
+  },
+  "target-dir" : "DCY/JSBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.0.1"
+    }
+  }
+}
